@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.tourradar.com/s3/tour/1500x800/66391_ace602.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+    color: #333;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.contact {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los resultados */
+.resultados {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+}
+
+.lugar {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lugar img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
